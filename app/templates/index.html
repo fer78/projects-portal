@@ -1,13 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Projects Portal</title>
-    </head>
-    <body>
-        <h1>Projects Portal</h1>
-        <p>Laboratorio Personal en VPS para DevOps, Ciencia de Datos, MLOps e Ingeniería de Inteligencia Artificial</p>
-    </body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}Projects Portal{% endblock %}
+
+{% block content %}
+
+    {% include "components/hero.html" %}
+
+    {% include "components/vps_info.html" %}
+
+    {% include "components/tech_stack.html" %}
+
+    {% include "components/projects.html" %}
+
+    {% include "components/resources.html" %}
+
+{% endblock %}

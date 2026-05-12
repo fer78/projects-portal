@@ -1,61 +1,44 @@
-```html
-<section class="bg-primary text-white py-5 py-lg-6">
-    <div class="container">
-        <div class="row align-items-center g-5">
+<section class="hero">
+    <div class="container hero-content">
 
-            <!-- Columna izquierda: contenido textual -->
-            <div class="col-lg-6">
+        <div class="hero-text">
+            <span class="hero-badge">Personal VPS Lab</span>
 
-                <!-- Etiqueta superior -->
-                <span class="badge bg-light text-primary px-3 py-2 mb-3">
-                    Personal VPS Lab
-                </span>
+            <h1 class="hero-title">Projects Portal</h1>
 
-                <!-- Título principal -->
-                <h1 class="display-4 fw-bold mb-4">
-                    Projects Portal
-                </h1>
+            <p class="hero-subtitle">
+                Laboratorio Personal en VPS para DevOps, Ciencia de Datos,
+                MLOps e Ingeniería de Inteligencia Artificial.
+            </p>
 
-                <!-- Subtítulo -->
-                <p class="lead mb-4">
-                    Laboratorio Personal en VPS para DevOps, Ciencia de Datos,
-                    MLOps e Ingeniería de Inteligencia Artificial.
-                </p>
+            <p class="hero-description">
+                Portal centralizado de acceso a aplicaciones, dashboards,
+                APIs y experimentos desplegados en mi infraestructura
+                personal en la nube.
+            </p>
 
-                <!-- Descripción -->
-                <p class="mb-4">
-                    Portal centralizado de acceso a aplicaciones, dashboards,
-                    APIs y experimentos desplegados en mi infraestructura
-                    personal en la nube.
-                </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">
+                    View Projects
+                </a>
 
-                <!-- Botones de acción -->
-                <div class="d-flex flex-wrap gap-3">
-                    <a href="#projects" class="btn btn-light btn-lg px-4">
-                        View Projects
-                    </a>
-
-                    <a
-                        href="https://github.com/fer78"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="btn btn-outline-light btn-lg px-4"
-                    >
-                        GitHub
-                    </a>
-                </div>
-            </div>
-
-            <!-- Columna derecha: ilustración -->
-            <div class="col-lg-6 text-center">
-                <img
-                    src="{{ url_for('static', filename='img/vps-illustration.png') }}"
-                    alt="VPS Infrastructure Illustration"
-                    class="img-fluid"
+                <a
+                    href="https://github.com/fer78"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-secondary"
                 >
+                    GitHub
+                </a>
             </div>
-
         </div>
+
+        <div class="hero-image">
+            <img
+                src="{{ url_for('static', filename='img/vps-illustration.png') }}"
+                alt="VPS Infrastructure Illustration"
+            >
+        </div>
+
     </div>
 </section>
-```

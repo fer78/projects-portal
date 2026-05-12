@@ -1,0 +1,71 @@
+<section id="projects" class="projects">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+            {% for project in projects %}
+
+            <article class="project-card">
+
+                <h3 class="project-title">
+                    {{ project.name }}
+                </h3>
+
+                <p class="project-description">
+                    {{ project.description }}
+                </p>
+
+                <div class="project-tech">
+                    {% for tech in project.technologies %}
+                    <span class="tech-badge">{{ tech }}</span>
+                    {% endfor %}
+                </div>
+
+                <div class="project-links">
+
+                    <a
+                        href="{{ project.app_url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Open App
+                    </a>
+
+                    <a
+                        href="{{ project.doc_url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Documentation
+                    </a>
+
+                    <a
+                        href="{{ project.github_url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+
+                    {% if project.api_url %}
+                    <a
+                        href="{{ project.api_url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        API Docs
+                    </a>
+                    {% endif %}
+
+                </div>
+
+            </article>
+
+            {% endfor %}
+        </div>
+
+    </div>
+</section>
