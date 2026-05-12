@@ -1,0 +1,117 @@
+<section id="vps-info" class="py-5 bg-light">
+    <div class="container">
+
+        <!-- Encabezado de la sección -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Infraestructura del VPS</h2>
+        </div>
+
+        <!-- Tarjeta contenedora -->
+        <div class="card border-0 shadow-sm">
+            <div class="card-body py-4">
+
+                <!-- Grid de métricas -->
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-6 g-3">
+
+                    <!-- Sistema Operativo -->
+                    <div class="col">
+                        <div class="p-3 border rounded h-100 d-flex align-items-center gap-3">
+                            <img
+                                src="{{ url_for('static', filename='img/icons/os.svg') }}"
+                                alt="Sistema Operativo"
+                                width="32"
+                                height="32"
+                            >
+                            <div>
+                                <div class="small text-muted">Sistema Operativo</div>
+                                <div class="fw-semibold">Ubuntu 24.04 LTS</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CPU -->
+                    <div class="col">
+                        <div class="p-3 border rounded h-100 d-flex align-items-center gap-3">
+                            <img
+                                src="{{ url_for('static', filename='img/icons/cpu.svg') }}"
+                                alt="CPU"
+                                width="32"
+                                height="32"
+                            >
+                            <div>
+                                <div class="small text-muted">CPU</div>
+                                <div class="fw-semibold">4 vCPU</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RAM -->
+                    <div class="col">
+                        <div class="p-3 border rounded h-100 d-flex align-items-center gap-3">
+                            <img
+                                src="{{ url_for('static', filename='img/icons/ram.svg') }}"
+                                alt="RAM"
+                                width="32"
+                                height="32"
+                            >
+                            <div>
+                                <div class="small text-muted">RAM</div>
+                                <div class="fw-semibold">8 GB</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Disco -->
+                    <div class="col">
+                        <div class="p-3 border rounded h-100 d-flex align-items-center gap-3">
+                            <img
+                                src="{{ url_for('static', filename='img/icons/disk.svg') }}"
+                                alt="Disco"
+                                width="32"
+                                height="32"
+                            >
+                            <div>
+                                <div class="small text-muted">Disco</div>
+                                <div class="fw-semibold">160 GB SSD</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IP Pública -->
+                    <div class="col">
+                        <div class="p-3 border rounded h-100 d-flex align-items-center gap-3">
+                            <img
+                                src="{{ url_for('static', filename='img/icons/ip.svg') }}"
+                                alt="IP Pública"
+                                width="32"
+                                height="32"
+                            >
+                            <div>
+                                <div class="small text-muted">IP Pública</div>
+                                <div class="fw-semibold">186.xxx.xxx.xxx</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dominio -->
+                    <div class="col">
+                        <div class="p-3 border rounded h-100 d-flex align-items-center gap-3">
+                            <img
+                                src="{{ url_for('static', filename='img/icons/domain.svg') }}"
+                                alt="Dominio"
+                                width="32"
+                                height="32"
+                            >
+                            <div>
+                                <div class="small text-muted">Dominio</div>
+                                <div class="fw-semibold">projects.fernandorioseco.es</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
