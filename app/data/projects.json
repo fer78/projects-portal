@@ -1,0 +1,11 @@
+[
+  {
+    "name": "CO2 Emissions Dashboard",
+    "description": "Análisis interactivo de emisiones de vehículos.",
+    "technologies": ["Python", "Pandas", "Power BI", "Streamlit"],
+    "app_url": "https://co2.projects.fernandorioseco.es",
+    "article_url": "https://fernandorioseco.es/co2-emissions-dashboard",
+    "github_url": "https://github.com/fernandorioseco/co2-emissions-dashboard",
+    "api_docs_url": null
+  }
+]
