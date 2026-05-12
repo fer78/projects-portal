@@ -1,0 +1,61 @@
+```html
+<section class="bg-primary text-white py-5 py-lg-6">
+    <div class="container">
+        <div class="row align-items-center g-5">
+
+            <!-- Columna izquierda: contenido textual -->
+            <div class="col-lg-6">
+
+                <!-- Etiqueta superior -->
+                <span class="badge bg-light text-primary px-3 py-2 mb-3">
+                    Personal VPS Lab
+                </span>
+
+                <!-- Título principal -->
+                <h1 class="display-4 fw-bold mb-4">
+                    Projects Portal
+                </h1>
+
+                <!-- Subtítulo -->
+                <p class="lead mb-4">
+                    Laboratorio Personal en VPS para DevOps, Ciencia de Datos,
+                    MLOps e Ingeniería de Inteligencia Artificial.
+                </p>
+
+                <!-- Descripción -->
+                <p class="mb-4">
+                    Portal centralizado de acceso a aplicaciones, dashboards,
+                    APIs y experimentos desplegados en mi infraestructura
+                    personal en la nube.
+                </p>
+
+                <!-- Botones de acción -->
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="#projects" class="btn btn-light btn-lg px-4">
+                        View Projects
+                    </a>
+
+                    <a
+                        href="https://github.com/fer78"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-outline-light btn-lg px-4"
+                    >
+                        GitHub
+                    </a>
+                </div>
+            </div>
+
+            <!-- Columna derecha: ilustración -->
+            <div class="col-lg-6 text-center">
+                <img
+                    src="{{ url_for('static', filename='img/vps-illustration.png') }}"
+                    alt="VPS Infrastructure Illustration"
+                    class="img-fluid"
+                >
+            </div>
+
+        </div>
+    </div>
+</section>
+```
