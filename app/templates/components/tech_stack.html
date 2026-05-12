@@ -3,160 +3,128 @@
 
         <!-- Encabezado de la sección -->
         <div class="text-center mb-5">
-            <h2 class="fw-bold">Technology Stack</h2>
-            <p class="text-muted">
-                Tecnologías y herramientas utilizadas para desarrollar,
-                desplegar y mantener los proyectos del laboratorio.
-            </p>
+            <h2 class="fw-bold">Stack Tecnológico</h2>
         </div>
 
-        <!-- Grid de tecnologías -->
-        <div class="row g-4 text-center">
+        <!-- Contenedor principal -->
+        <div class="card border-0 shadow-sm">
+            <div class="card-body py-4">
 
-            <!-- Python -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">Python</h5>
-                        <p class="text-muted small mb-0">
-                            Lenguaje principal de desarrollo.
-                        </p>
+                <!-- Grid de tecnologías -->
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4 text-center">
+
+                    <!-- Linux -->
+                    <div class="col">
+                        <img
+                            src="{{ url_for('static', filename='img/tech/linux.png') }}"
+                            alt="Linux"
+                            class="img-fluid mb-2"
+                            style="height: 40px;"
+                        >
+                        <div class="small fw-medium">Linux</div>
                     </div>
+
+                    <!-- Docker -->
+                    <div class="col">
+                        <img
+                            src="{{ url_for('static', filename='img/tech/docker.png') }}"
+                            alt="Docker"
+                            class="img-fluid mb-2"
+                            style="height: 40px;"
+                        >
+                        <div class="small fw-medium">Docker</div>
+                    </div>
+
+                    <!-- Flask -->
+                    <div class="col">
+                        <img
+                            src="{{ url_for('static', filename='img/tech/flask.png') }}"
+                            alt="Flask"
+                            class="img-fluid mb-2"
+                            style="height: 40px;"
+                        >
+                        <div class="small fw-medium">Flask</div>
+                    </div>
+
+                    <!-- Nginx -->
+                    <div class="col">
+                        <img
+                            src="{{ url_for('static', filename='img/tech/nginx.png') }}"
+                            alt="Nginx"
+                            class="img-fluid mb-2"
+                            style="height: 40px;"
+                        >
+                        <div class="small fw-medium">Nginx</div>
+                    </div>
+
+                    <!-- PostgreSQL -->
+                    <div class="col">
+                        <img
+                            src="{{ url_for('static', filename='img/tech/postgresql.png') }}"
+                            alt="PostgreSQL"
+                            class="img-fluid mb-2"
+                            style="height: 40px;"
+                        >
+                        <div class="small fw-medium">PostgreSQL</div>
+                    </div>
+
+                    <!-- Redis -->
+                    <div class="col">
+                        <img
+                            src="{{ url_for('static', filename='img/tech/redis.png') }}"
+                            alt="Redis"
+                            class="img-fluid mb-2"
+                            style="height: 40px;"
+                        >
+                        <div class="small fw-medium">Redis</div>
+                    </div>
+
+                    <!-- Power BI -->
+                    <div class="col">
+                        <img
+                            src="{{ url_for('static', filename='img/tech/powerbi.png') }}"
+                            alt="Power BI"
+                            class="img-fluid mb-2"
+                            style="height: 40px;"
+                        >
+                        <div class="small fw-medium">Power BI</div>
+                    </div>
+
+                    <!-- Python -->
+                    <div class="col">
+                        <img
+                            src="{{ url_for('static', filename='img/tech/python.png') }}"
+                            alt="Python"
+                            class="img-fluid mb-2"
+                            style="height: 40px;"
+                        >
+                        <div class="small fw-medium">Python</div>
+                    </div>
+
+                    <!-- LangChain -->
+                    <div class="col">
+                        <img
+                            src="{{ url_for('static', filename='img/tech/langchain.png') }}"
+                            alt="LangChain"
+                            class="img-fluid mb-2"
+                            style="height: 40px;"
+                        >
+                        <div class="small fw-medium">LangChain</div>
+                    </div>
+
+                    <!-- Machine Learning -->
+                    <div class="col">
+                        <img
+                            src="{{ url_for('static', filename='img/tech/machine-learning.png') }}"
+                            alt="Machine Learning"
+                            class="img-fluid mb-2"
+                            style="height: 40px;"
+                        >
+                        <div class="small fw-medium">Machine Learning</div>
+                    </div>
+
                 </div>
             </div>
-
-            <!-- Flask -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">Flask</h5>
-                        <p class="text-muted small mb-0">
-                            Framework web backend.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Docker -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">Docker</h5>
-                        <p class="text-muted small mb-0">
-                            Contenerización de aplicaciones.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Nginx -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">Nginx</h5>
-                        <p class="text-muted small mb-0">
-                            Proxy inverso y servidor web.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PostgreSQL -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">PostgreSQL</h5>
-                        <p class="text-muted small mb-0">
-                            Base de datos relacional.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Redis -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">Redis</h5>
-                        <p class="text-muted small mb-0">
-                            Caché y almacenamiento en memoria.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Streamlit -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">Streamlit</h5>
-                        <p class="text-muted small mb-0">
-                            Aplicaciones de datos interactivas.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- FastAPI -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">FastAPI</h5>
-                        <p class="text-muted small mb-0">
-                            APIs REST modernas.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Power BI -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">Power BI</h5>
-                        <p class="text-muted small mb-0">
-                            Visualización y análisis de datos.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- LangChain -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">LangChain</h5>
-                        <p class="text-muted small mb-0">
-                            Desarrollo de aplicaciones con LLMs.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Machine Learning -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">Machine Learning</h5>
-                        <p class="text-muted small mb-0">
-                            Modelado predictivo y analítica avanzada.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Linux -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="fw-bold mb-2">Linux</h5>
-                        <p class="text-muted small mb-0">
-                            Sistema operativo del VPS.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
