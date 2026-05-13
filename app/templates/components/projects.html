@@ -5,14 +5,34 @@
             <h2>Projects</h2>
         </div>
 
+        <div class="projects-search">
+        <input
+            type="text"
+            id="projects-search"
+            placeholder="Busca por categoria o tecnología (e.g. machine learning, pytorch)"
+            >
+            </div>
+
         <div class="projects-grid">
             {% for project in projects %}
 
-            <article class="project-card">
+            <article
+                class="project-card"
+                data-search="
+                    {{ project.name }}
+                    {{ project.project_type }}
+                    {{ project.description }}
+                    {{ project.technologies | join(' ') }}
+                "
+            >
 
                 <h3 class="project-title">
                     {{ project.name }}
                 </h3>
+
+                <p class="project-type">
+                    {{ project.project_type }}
+                </p>
 
                 <p class="project-description">
                     {{ project.description }}

@@ -1,0 +1,19 @@
+
+{
+  "name": "Projects Portal",
+  "project_type": "Web Application",
+  "description": "Portal centralizado de porfolio de proyectos desplegados en mi VPS.",
+  "technologies": [
+    "Python",
+    "Flask",
+    "Jinja2",
+    "HTML",
+    "CSS",
+    "Nginx",
+    "Gunicorn"
+  ],
+  "app_url": "https://projects.fernandorioseco.es",
+  "article_url": "https://fernandorioseco.es/proyecto-aplicacion-web-flask-projects-portal/",
+  "github_url": "https://github.com/fer78/projects-portal",
+  "api_docs_url": null
+}

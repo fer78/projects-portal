@@ -1,0 +1,17 @@
+{
+  "name": "Space Launch Optimization",
+  "project_type": "Machine Learning",
+  "description": "Predecir el éxito de lanzamientos espaciales con ML.",
+  "technologies": [
+    "Python",
+    "Folium",
+    "SQL",
+    "Plotly",
+    "Scikit-learn",
+    "BeautifulSoup"
+  ],
+  "app_url": null,
+  "article_url": "https://fernandorioseco.es/space-launch-optimization-with-machine-learning/",
+  "github_url": "https://github.com/fer78/SpaceX-Machine-Learning-Prediction",
+  "api_docs_url": null
+}

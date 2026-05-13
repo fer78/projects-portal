@@ -1,0 +1,16 @@
+{
+  "name": "Adventure Works Report",
+  "project_type": "Business Intelligence",
+  "description": "Reporte 360º de Adventure Works, dashboard de PowerBi.",
+  "technologies": [
+    "SQL Server",
+    "Power Bi",
+    "DAX",
+    "Power Query",
+    "ETL"
+  ],
+  "app_url": "https://projects.fernandorioseco.es",
+  "article_url": "https://fernandorioseco.es/adventureworks-2022-360-management-dashboard/",
+  "github_url": "https://github.com/fer78/AdventureWorks-2022-360-Management-Dashboard",
+  "api_docs_url": null
+}

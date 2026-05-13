@@ -1,0 +1,18 @@
+{
+  "name": "Real State Analysis",
+  "project_type": "Data Analysis",
+  "description": "Análisis estadístico y geoespacial del  mercado inmobiliario español.",
+  "technologies": [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Plotly",
+    "GeoPandas",
+    "Folium",
+    "Scipy"
+  ],
+  "app_url": null,
+  "article_url": "https://fernandorioseco.es/analisis-estadistico-y-espacial-del-segmento-de-apartamentos-en-el-mercado-inmobiliario-espanol-2019/",
+  "github_url": "https://github.com/fer78/spanish-real-estate-analysis",
+  "api_docs_url": null
+}
