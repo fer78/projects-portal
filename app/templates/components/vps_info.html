@@ -1,46 +1,42 @@
 <section id="vps-info" class="vps-info">
     <div class="container">
 
-        <div class="section-header">
-            <h2>Infraestructura del VPS</h2>
-        </div>
-
         <div class="vps-grid">
 
             <div class="vps-card">
-                <img src="{{ url_for('static', filename='img/icons/os.svg') }}" alt="Sistema Operativo">
+                <img src="{{ url_for('static', filename='img/ubuntu.png') }}" alt="Sistema Operativo">
                 <span class="label">Sistema Operativo</span>
                 <span class="value">Ubuntu 24.04 LTS</span>
             </div>
 
             <div class="vps-card">
-                <img src="{{ url_for('static', filename='img/icons/cpu.svg') }}" alt="CPU">
+                <img src="{{ url_for('static', filename='img/processor.png') }}" alt="CPU">
                 <span class="label">CPU</span>
-                <span class="value">4 vCPU</span>
+                <span class="value">6 vCPU</span>
             </div>
 
             <div class="vps-card">
-                <img src="{{ url_for('static', filename='img/icons/ram.svg') }}" alt="RAM">
+                <img src="{{ url_for('static', filename='img/memory.png') }}" alt="RAM">
                 <span class="label">RAM</span>
-                <span class="value">8 GB</span>
+                <span class="value">12 GB</span>
             </div>
 
             <div class="vps-card">
-                <img src="{{ url_for('static', filename='img/icons/disk.svg') }}" alt="Disco">
+                <img src="{{ url_for('static', filename='img/ssd.png') }}" alt="Disco">
                 <span class="label">Disco</span>
-                <span class="value">160 GB SSD</span>
+                <span class="value">100 GB NVMe</span>
             </div>
 
             <div class="vps-card">
-                <img src="{{ url_for('static', filename='img/icons/ip.svg') }}" alt="IP Pública">
+                <img src="{{ url_for('static', filename='img/link.png') }}" alt="IP Pública">
                 <span class="label">IP Pública</span>
-                <span class="value">186.xxx.xxx.xxx</span>
+                <span class="value">157.173.126.210</span>
             </div>
 
-            <div class="vps-card">
-                <img src="{{ url_for('static', filename='img/icons/domain.svg') }}" alt="Dominio">
-                <span class="label">Dominio</span>
-                <span class="value">projects.fernandorioseco.es</span>
+            <div class="vps-card" style="padding-top: 1.2rem;">
+                <img src="{{ url_for('static', filename='img/contabo.png') }}" alt="Provider">
+                <span class="label">VPS Provider</span>
+                <span class="value">Contabo</span>
             </div>
 
         </div>

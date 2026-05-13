@@ -1,130 +1,171 @@
-<section id="tech-stack" class="py-5">
+<section id="tech-stack" class="tech-stack">
     <div class="container">
 
-        <!-- Encabezado de la sección -->
-        <div class="text-center mb-5">
-            <h2 class="fw-bold">Stack Tecnológico</h2>
-        </div>
+        <!-- Grid de tecnologías -->
+        <div class="tech-grid">
 
-        <!-- Contenedor principal -->
-        <div class="card border-0 shadow-sm">
-            <div class="card-body py-4">
-
-                <!-- Grid de tecnologías -->
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4 text-center">
-
-                    <!-- Linux -->
-                    <div class="col">
-                        <img
-                            src="{{ url_for('static', filename='img/tech/linux.png') }}"
-                            alt="Linux"
-                            class="img-fluid mb-2"
-                            style="height: 40px;"
-                        >
-                        <div class="small fw-medium">Linux</div>
-                    </div>
-
-                    <!-- Docker -->
-                    <div class="col">
-                        <img
-                            src="{{ url_for('static', filename='img/tech/docker.png') }}"
-                            alt="Docker"
-                            class="img-fluid mb-2"
-                            style="height: 40px;"
-                        >
-                        <div class="small fw-medium">Docker</div>
-                    </div>
-
-                    <!-- Flask -->
-                    <div class="col">
-                        <img
-                            src="{{ url_for('static', filename='img/tech/flask.png') }}"
-                            alt="Flask"
-                            class="img-fluid mb-2"
-                            style="height: 40px;"
-                        >
-                        <div class="small fw-medium">Flask</div>
-                    </div>
-
-                    <!-- Nginx -->
-                    <div class="col">
-                        <img
-                            src="{{ url_for('static', filename='img/tech/nginx.png') }}"
-                            alt="Nginx"
-                            class="img-fluid mb-2"
-                            style="height: 40px;"
-                        >
-                        <div class="small fw-medium">Nginx</div>
-                    </div>
-
-                    <!-- PostgreSQL -->
-                    <div class="col">
-                        <img
-                            src="{{ url_for('static', filename='img/tech/postgresql.png') }}"
-                            alt="PostgreSQL"
-                            class="img-fluid mb-2"
-                            style="height: 40px;"
-                        >
-                        <div class="small fw-medium">PostgreSQL</div>
-                    </div>
-
-                    <!-- Redis -->
-                    <div class="col">
-                        <img
-                            src="{{ url_for('static', filename='img/tech/redis.png') }}"
-                            alt="Redis"
-                            class="img-fluid mb-2"
-                            style="height: 40px;"
-                        >
-                        <div class="small fw-medium">Redis</div>
-                    </div>
-
-                    <!-- Power BI -->
-                    <div class="col">
-                        <img
-                            src="{{ url_for('static', filename='img/tech/powerbi.png') }}"
-                            alt="Power BI"
-                            class="img-fluid mb-2"
-                            style="height: 40px;"
-                        >
-                        <div class="small fw-medium">Power BI</div>
-                    </div>
-
-                    <!-- Python -->
-                    <div class="col">
-                        <img
-                            src="{{ url_for('static', filename='img/tech/python.png') }}"
-                            alt="Python"
-                            class="img-fluid mb-2"
-                            style="height: 40px;"
-                        >
-                        <div class="small fw-medium">Python</div>
-                    </div>
-
-                    <!-- LangChain -->
-                    <div class="col">
-                        <img
-                            src="{{ url_for('static', filename='img/tech/langchain.png') }}"
-                            alt="LangChain"
-                            class="img-fluid mb-2"
-                            style="height: 40px;"
-                        >
-                        <div class="small fw-medium">LangChain</div>
-                    </div>
-
-                    <!-- Machine Learning -->
-                    <div class="col">
-                        <img
-                            src="{{ url_for('static', filename='img/tech/machine-learning.png') }}"
-                            alt="Machine Learning"
-                            class="img-fluid mb-2"
-                            style="height: 40px;"
-                        >
-                        <div class="small fw-medium">Machine Learning</div>
-                    </div>
-
-                </div>
+            <!-- Linux -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/linux.png') }}"
+                    alt="Linux"
+                >
+                <span>Linux</span>
             </div>
+
+            <!-- Docker -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/docker.png') }}"
+                    alt="Docker"
+                >
+                <span>Docker</span>
+            </div>
+
+            <!-- Flask -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/flask.png') }}"
+                    alt="Flask"
+                >
+                <span>Flask</span>
+            </div>
+
+            <!-- Nginx -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/nginx.png') }}"
+                    alt="Nginx"
+                >
+                <span>Nginx</span>
+            </div>
+
+            <!-- PostgreSQL -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/postgresql.png') }}"
+                    alt="PostgreSQL"
+                >
+                <span>PostgreSQL</span>
+            </div>
+
+            <!-- Redis -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/python.png') }}"
+                    alt="Python"
+                >
+                <span>Python</span>
+            </div>
+
+            <!-- Power BI -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/machine-learning.png') }}"
+                    alt="Power BI"
+                >
+                <span>Machine Learning</span>
+            </div>
+
+            <!-- Python -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/gradio.png') }}"
+                    alt="Gradio"
+                >
+                <span>Gradio</span>
+            </div>
+
+            <!-- LangChain -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/langchain.png') }}"
+                    alt="LangChain"
+                >
+                <span>LangChain</span>
+            </div>
+
+            <!-- Machine Learning -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/streamlit.png') }}"
+                    alt="Streamlit"
+                >
+                <span>Streamlit</span>
+            </div>
+
+            <!-- FastAPI -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/Fastapi.png') }}"
+                    alt="FastAPI"
+                >
+                <span>FastAPI</span>
+            </div>
+            <!-- Python -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/pandas.png') }}"
+                    alt="Gradio"
+                >
+                <span>Pandas</span>
+            </div>
+
+            <!-- LangChain -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/numpy.png') }}"
+                    alt="LangChain"
+                >
+                <span>Numpy</span>
+            </div>
+
+            <!-- Machine Learning -->
+            <div class="tech-item" style="padding-top: 1.2rem;">
+                <img
+                    src="{{ url_for('static', filename='img/scikit-learn.png') }}"
+                    alt="Scikit-Learn"
+                    style="margin-bottom: 1.7rem";
+                >
+                <span>Scikit-Learn</span>
+            </div>
+
+            <!-- FastAPI -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/llamaindex.png') }}"
+                    alt="llamaindex"
+                >
+                <span>Llamaindex</span>
+            </div>
+
+            <!-- Python -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/pytorch.png') }}"
+                    alt="Pytorch"
+                >
+                <span>Pytorch</span>
+            </div>
+
+            <!-- LangChain -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/huggingface.png') }}"
+                    alt="Hugging Face"
+                >
+                <span>huggingface</span>
+            </div>
+
+            <!-- Machine Learning -->
+            <div class="tech-item">
+                <img
+                    src="{{ url_for('static', filename='img/Openai.png') }}"
+                    alt="OpenAI"
+                >
+                <span>OpenAI API</span>
+            </div>
+
         </div>
     </div>
 </section>

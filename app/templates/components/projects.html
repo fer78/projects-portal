@@ -26,36 +26,20 @@
 
                 <div class="project-links">
 
-                    <a
-                        href="{{ project.app_url }}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a href="{{ project.app_url }}" target="_blank" rel="noopener noreferrer">
                         Open App
                     </a>
 
-                    <a
-                        href="{{ project.doc_url }}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a href="{{ project.article_url }}" target="_blank" rel="noopener noreferrer">
                         Documentation
                     </a>
 
-                    <a
-                        href="{{ project.github_url }}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a href="{{ project.github_url }}" target="_blank" rel="noopener noreferrer">
                         GitHub
                     </a>
 
-                    {% if project.api_url %}
-                    <a
-                        href="{{ project.api_url }}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    {% if project.api_docs_url %}
+                    <a href="{{ project.api_docs_url }}" target="_blank" rel="noopener noreferrer">
                         API Docs
                     </a>
                     {% endif %}
